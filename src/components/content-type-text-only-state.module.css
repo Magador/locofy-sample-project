@@ -1,0 +1,18 @@
+.option1 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 150%;
+}
+.contentTypetextOnlyState {
+  position: relative;
+  background-color: var(--action-hover);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-7xs) var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--typography-body-1-size);
+  color: var(--text-primary);
+  font-family: var(--components-button-large);
+}

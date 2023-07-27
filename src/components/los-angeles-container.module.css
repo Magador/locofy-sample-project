@@ -1,0 +1,88 @@
+.bannerBackground {
+  position: absolute;
+  height: calc(100% - 0.4px);
+  width: 100%;
+  top: 0.4px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.staysInLos {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 3rem;
+  display: inline-block;
+  width: 80rem;
+}
+.options,
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.title {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 90rem;
+  flex-direction: column;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+}
+.banner,
+.header {
+  align-self: stretch;
+}
+.banner {
+  position: relative;
+  background: linear-gradient(100.3deg, #0b5ba8, #299bd8);
+  height: 12.06rem;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-23xl);
+  color: var(--background-paper);
+  font-family: var(--font-baloo-bhai);
+}
+@media screen and (max-width: 1200px) {
+  .banner,
+  .title {
+    box-sizing: border-box;
+  }
+  .title {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+  }
+  .banner {
+    padding: var(--padding-2xl) var(--padding-21xl) var(--padding-2xl)
+      var(--padding-22xl);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .banner,
+  .title {
+    box-sizing: border-box;
+  }
+  .title {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+  }
+  .banner {
+    padding: var(--padding-2xl) var(--padding-5xl);
+  }
+}
+@media screen and (max-width: 650px) {
+  .staysInLos {
+    font-size: var(--font-size-13xl);
+  }
+}

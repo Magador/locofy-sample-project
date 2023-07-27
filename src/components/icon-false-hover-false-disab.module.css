@@ -1,0 +1,18 @@
+.option {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 150%;
+}
+.iconfalseHoverfalseDisab {
+  position: relative;
+  background-color: var(--background-paper);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-7xs) var(--padding-base);
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--typography-body-1-size);
+  color: var(--text-primary);
+  font-family: var(--components-button-large);
+}

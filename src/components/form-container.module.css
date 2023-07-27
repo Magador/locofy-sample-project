@@ -1,0 +1,341 @@
+.subscribeSectionBackground {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 33.13rem;
+  object-fit: cover;
+}
+.formTitle,
+.formTitleSubtext {
+  align-self: stretch;
+  position: relative;
+}
+.formTitleSubtext {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.formTitle {
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+}
+.formHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.fillInYour {
+  position: relative;
+  line-height: 2.13rem;
+}
+.fillInYour,
+.formText,
+.input {
+  align-self: stretch;
+}
+.formText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input {
+  border: 0;
+  background-color: transparent;
+}
+.button,
+.formFields {
+  display: flex;
+  flex-direction: column;
+}
+.formFields {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-orange-200);
+  border-radius: var(--br-9xs);
+  width: 10.25rem;
+  height: 3.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-darkorange);
+}
+.form,
+.shareYourTravelsForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.form {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--background-paper);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.03);
+  border: 1px solid var(--color-whitesmoke-200);
+  padding: var(--padding-9xl) var(--padding-11xl);
+  align-items: flex-start;
+  gap: var(--gap-mid);
+  text-align: left;
+  color: var(--color-slategray);
+}
+.shareYourTravelsForm {
+  position: relative !important;
+  top: 52px;
+  left: auto !important;
+  width: 34.31rem;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-11xl);
+  margin-left: auto;
+  margin-right: auto;
+}
+.logoIcon,
+.subscribeSection {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.subscribeSection {
+  align-self: stretch;
+  background-color: var(--color-aliceblue);
+  height: 33.06rem;
+}
+.logoIcon {
+  width: 10.88rem;
+  height: 2.06rem;
+}
+.fickleFlightIs {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.69rem;
+}
+.socialIcons {
+  position: relative;
+  width: 8.13rem;
+  height: 1.88rem;
+}
+.fickleflightBio {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  margin-bottom: 40px !important;
+}
+.footerChild {
+  position: relative;
+  border-right: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 0.06rem;
+  height: 9.87rem;
+}
+.aboutUs {
+  top: 47.76px;
+  width: 8.48rem;
+}
+.aboutUs,
+.careers,
+.company1,
+.howWeWork,
+.news {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.company1 {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 1.69rem;
+  font-weight: 500;
+  width: 10.92rem;
+}
+.careers,
+.howWeWork,
+.news {
+  top: 78.76px;
+  width: 5.27rem;
+}
+.careers,
+.howWeWork {
+  top: 109.76px;
+  width: 7.19rem;
+}
+.howWeWork {
+  top: 140.76px;
+  width: 12.33rem;
+}
+.company {
+  position: relative;
+  width: 12.33rem;
+  height: 9.99rem;
+}
+.account,
+.support1 {
+  position: absolute;
+  top: 47.76px;
+  left: 0;
+  display: inline-block;
+  width: 6.85rem;
+}
+.support1 {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 1.69rem;
+  font-weight: 500;
+  width: 8.22rem;
+}
+.accessibility,
+.faq,
+.supportCenter {
+  position: absolute;
+  top: 78.76px;
+  left: 0;
+  display: inline-block;
+  width: 12.33rem;
+}
+.accessibility,
+.faq {
+  top: 109.76px;
+  width: 3.31rem;
+}
+.accessibility {
+  top: 140.76px;
+  width: 10.28rem;
+}
+.covidAdvisory {
+  top: 47.76px;
+  width: 10.8rem;
+}
+.airlineFees,
+.covidAdvisory,
+.more1,
+.tips {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.more1 {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 1.69rem;
+  font-weight: 500;
+  width: 4.79rem;
+}
+.airlineFees,
+.tips {
+  top: 78.76px;
+  width: 8.46rem;
+}
+.tips {
+  top: 109.76px;
+  width: 3.16rem;
+}
+.more {
+  position: relative;
+  width: 12.33rem;
+  height: 9.99rem;
+}
+.footerLinks {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: var(--typography-body-1-size);
+}
+.footer,
+.footerSection {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-lg);
+  font-family: var(--components-button-large);
+}
+.footer {
+  background: linear-gradient(91.74deg, #0b5ba8 25.38%, #299bd8);
+  flex-direction: row;
+  padding: var(--padding-14xl) var(--padding-65xl);
+  gap: var(--gap-25xl);
+  text-align: left;
+  color: var(--background-paper);
+}
+.footerSection {
+  flex-direction: column;
+  text-align: center;
+  color: var(--color-cornflowerblue-300);
+}
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .shareYourTravelsForm {
+    padding: var(--padding-5xl) 0;
+    box-sizing: border-box;
+  }
+  .fickleflightBio {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footerChild {
+    display: none;
+  }
+  .footerLinks {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer {
+    flex-direction: column;
+    padding: var(--padding-21xl) var(--padding-5xl) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .button {
+    width: 100%;
+  }
+  .button:hover {
+    background-color: var(--color-peru);
+  }
+  .shareYourTravelsForm {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 100%;
+  }
+  .company {
+    margin-bottom: 40px !important;
+  }
+  .footerLinks {
+    flex-direction: column;
+  }
+  .footer {
+    padding: var(--padding-11xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
